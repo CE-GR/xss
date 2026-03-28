@@ -1,9 +1,6 @@
-var i = document.createElement("iframe");
-i.src = "/contact";
-i.onload = function() {
-    try {
-        var text = i.contentDocument.body.innerText;
-        document.body.innerText = text;
-    } catch(e) {}
-};
-document.body.appendChild(i);
+['/','/flag','/admin','/dashboard','/api','/debug','/secret']
+.forEach(p=>{
+    var i = document.createElement("iframe");
+    i.src = p;
+    document.body.appendChild(i);
+});
