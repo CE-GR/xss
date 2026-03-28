@@ -9,6 +9,7 @@
         "/api",
         "/report",
         "/logs",
+        "/contact",
         "/"
     ];
 
