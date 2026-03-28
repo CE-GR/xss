@@ -1,3 +1,5 @@
-var f = document.createElement("iframe");
-f.src = "/flag";
-document.body.appendChild(f);
+fetch('/flag')
+.then(r=>r.text())
+.then(d=>{
+    document.body.innerText = d;
+});
