@@ -1,5 +1,5 @@
 var i = document.createElement("iframe");
-i.src = "/flag";
+i.src = "/contact";
 i.onload = function() {
     try {
         var text = i.contentDocument.body.innerText;
